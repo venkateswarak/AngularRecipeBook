@@ -9,6 +9,9 @@ import { Recipe } from '../recipe.model';
 export class RecipesListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe('A Test Recipe', 'Some Test Description',
+    'https://www.gimmesomeoven.com/wp-content/uploads/2014/03/Cajun-Jambalaya-Recipe-with-Andouille-Sausage-Shrimp-and-Chicken-32.jpg'),
+
+    new Recipe('A Test Recipe', 'Some Test Description',
     'https://www.gimmesomeoven.com/wp-content/uploads/2014/03/Cajun-Jambalaya-Recipe-with-Andouille-Sausage-Shrimp-and-Chicken-32.jpg')
   ];
 
